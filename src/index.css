@@ -3,10 +3,12 @@
 
 @theme {
   --color-bg: #000000;
+  --color-section-bg: #0A0812;
   --color-accent-teal: #1D9E75;
   --color-accent-blue: #3B82F6;
   --color-accent-violet: #7C3AED;
   --color-accent-lavender: #9D92F8;
+  --color-accent-coral: #FF4D6D;
 }
 
 html,

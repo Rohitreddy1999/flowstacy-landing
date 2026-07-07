@@ -7,4 +7,8 @@ export default defineConfig({
   resolve: {
     dedupe: ['react', 'react-dom', 'its-fine'],
   },
+  server: {
+    port: parseInt(process.env.PORT || '5173'),
+    strictPort: false,
+  },
 })

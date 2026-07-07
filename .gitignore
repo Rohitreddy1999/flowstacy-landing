@@ -26,3 +26,5 @@ extracted_template.html
 *.njsproj
 *.sln
 *.sw?
+
+.vercel

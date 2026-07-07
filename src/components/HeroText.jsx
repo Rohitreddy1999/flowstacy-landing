@@ -9,7 +9,7 @@ export default function HeroText({ wordmarkRef, hintRef }) {
       <div
         ref={wordmarkRef}
         style={{
-          position: 'fixed',
+          position: 'absolute',
           top: '50%',
           left: '50%',
           transform: 'translate(-50%, -50%)',
@@ -33,7 +33,7 @@ export default function HeroText({ wordmarkRef, hintRef }) {
       {/* Bottom content: supporting copy + CTA */}
       <div
         style={{
-          position: 'fixed',
+          position: 'absolute',
           left: 0,
           right: 0,
           bottom: '7%',
@@ -93,7 +93,7 @@ export default function HeroText({ wordmarkRef, hintRef }) {
       <div
         ref={hintRef}
         style={{
-          position: 'fixed',
+          position: 'absolute',
           bottom: '18px',
           left: 0,
           right: 0,
