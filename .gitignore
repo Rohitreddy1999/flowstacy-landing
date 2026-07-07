@@ -12,6 +12,10 @@ dist
 dist-ssr
 *.local
 
+# Design extraction artifacts
+extracted_*.js
+extracted_template.html
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
